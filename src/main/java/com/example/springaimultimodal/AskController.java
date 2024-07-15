@@ -56,7 +56,7 @@ public class AskController {
 
         return chatClient.prompt()
                 .user(userSpec -> userSpec
-                        .text("describe this image?")
+                        .text("is this person good?")
                         .media(new Media(MimeTypeUtils.IMAGE_JPEG, live)))
                 .call()
                 .entity(Answer.class);

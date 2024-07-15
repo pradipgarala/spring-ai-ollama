@@ -1,4 +1,4 @@
 package com.example.springaimultimodal;
 
-public record Answer(String answer, Boolean isClean) {
+public record Answer(String answer, String reason, Boolean isClean) {
 }
